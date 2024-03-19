@@ -5,49 +5,49 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #1f80c8;
+	--bg-primary: #1f80c8;
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
-  font-optical-sizing: auto;
+	font-family: 'Arimo', sans-serif;
+	font-optical-sizing: auto;
 
-  font-style: normal;
+	font-style: normal;
 }
 
 li {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 textarea {
-  resize: none;
+	resize: none;
 }
 
 .custom-link {
-  position: relative;
-  cursor: pointer;
-  transition: all 400ms;
+	position: relative;
+	cursor: pointer;
+	transition: all 400ms;
 }
 
 .custom-link:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .custom-link::before {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  transition: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 400ms;
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	transition: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 400ms;
 }
 
 .custom-link:hover::before {
-  width: 100%;
-  background-color: var(--bg-primary);
+	width: 100%;
+	background-color: var(--bg-primary);
 }
