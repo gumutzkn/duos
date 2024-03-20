@@ -14,9 +14,8 @@ const BlogContainer = () => {
 				<Post />
 				<Post />
 				<Post />
-				<Post />
 			</div>
-			<button className='bg-primary text-white self-center py-2 px-6 rounded-full mt-6'>
+			<button className='bg-primary text-white self-center py-2 px-6 rounded-full mt-10'>
 				Tüm Bloglar
 			</button>
 		</div>

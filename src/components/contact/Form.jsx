@@ -1,6 +1,6 @@
 const Form = () => {
 	return (
-		<form className='h-full w-[450px] flex flex-col justify-center px-8 bg-white border border-secondary rounded-lg'>
+		<form className='h-full w-[450px] flex flex-col justify-center px-8 shadow-form bg-white border border-secondary rounded-lg'>
 			<label
 				htmlFor='advesoyad'
 				className='text-primary text-lg ml-1 mb-1'
@@ -11,7 +11,7 @@ const Form = () => {
 				type='text'
 				name='advesoyad'
 				id='advesoyad'
-				className='rounded-full py-2 px-3 border border-secondary mb-5 outline-none'
+				className='rounded-full py-2 px-3 border-2 border-secondary mb-5 outline-none focus:border-primary'
 			/>
 			<label
 				htmlFor='email'
@@ -23,7 +23,7 @@ const Form = () => {
 				type='email'
 				name='email'
 				id='email'
-				className='rounded-full py-2 px-3 border border-secondary mb-5 outline-none'
+				className='rounded-full py-2 px-3 border-2 border-secondary mb-5 outline-none focus:border-primary'
 			/>
 			<label
 				htmlFor='numara'
@@ -35,7 +35,7 @@ const Form = () => {
 				type='text'
 				name='numara'
 				id='numara'
-				className='rounded-full py-2 px-3 border border-secondary mb-5 outline-none'
+				className='rounded-full py-2 px-3 border-2 border-secondary mb-5 outline-none focus:border-primary'
 			/>
 			<label
 				htmlFor='message'
@@ -46,7 +46,7 @@ const Form = () => {
 			<textarea
 				name='message'
 				id='message'
-				className='rounded-2xl py-2 px-3 border border-secondary outline-none'
+				className='rounded-2xl py-2 px-3 border-2 border-secondary outline-none focus:border-primary'
 				rows='8'
 			/>
 			<button
